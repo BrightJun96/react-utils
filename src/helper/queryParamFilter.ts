@@ -4,7 +4,7 @@
  * @param params
  * @returns
  */
-export default function queyParamsFilter(
+export default function queryParamsFilter(
   params: Record<string | number | symbol, unknown>
 ) {
   return Object.fromEntries(
