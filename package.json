@@ -1,5 +1,27 @@
 {
+  "name": "react-useful-utils",
+  "description": "react useful function,hooks",
+  "author": {
+    "name": "dev-cheol-jun",
+    "email": "devjjalseu@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "utils",
+    "helper",
+    "hooks",
+    "query",
+    "params",
+    "querystring"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrightJun96/react-utils.git"
+  },
+  "version": "0.0.1",
+  "main": "/src/index.ts",
   "dependencies": {
     "react-router-dom": "^6.21.1"
-  }
+  },
+  "license": "MIT"
 }
