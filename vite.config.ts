@@ -1,4 +1,5 @@
 // vite.config.ts
+import react from "@vitejs/plugin-react";
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
@@ -12,5 +13,5 @@ export default defineConfig({
       fileName: "react-useful-utils",
     },
   },
-  plugins: [dts()],
+  plugins: [dts(), react()],
 });
