@@ -1,3 +1,3 @@
-export * from "./hooks/useQueryString";
+export { default as useQueryString } from "./hooks/useQueryString.ts";
 
-export * from "./helper/queryParamFilter";
+export { default as queryParamFilter } from "./helper/queryParamFilter.ts";

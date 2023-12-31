@@ -14,14 +14,46 @@
     "params",
     "querystring"
   ],
+  "type": "module",
+  "main": "./dist/react-useful-utils.umd.cjs",
+  "module": "./dist/react-useful-utils.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/react-useful-utils.js",
+      "require": "./dist/react-useful-utils.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/BrightJun96/react-utils.git"
   },
-  "version": "0.0.1",
-  "main": "/src/index.ts",
+  "version": "0.0.16",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
   "dependencies": {
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-router-dom": "^5.3.3",
+    "prettier": "^3.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.7.0"
+  }
 }
