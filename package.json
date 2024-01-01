@@ -17,11 +17,11 @@
   "type": "module",
   "main": "./dist/react-useful-utils.umd.cjs",
   "module": "./dist/react-useful-utils.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/react-useful-utils.js",
-      "require": "./dist/react-useful-utils.umd.cjs"
+      "require": "./dist/react-useful-utils.umd.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "files": [
@@ -31,7 +31,7 @@
     "type": "git",
     "url": "https://github.com/BrightJun96/react-utils.git"
   },
-  "version": "0.0.29",
+  "version": "0.0.32",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
