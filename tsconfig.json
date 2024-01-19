@@ -14,7 +14,6 @@
     "noFallthroughCasesInSwitch": true, // switch문의 case문 넘어감 방지
     "module": "esnext", // 모듈 시스템 (최신 ECMAScript)
     "moduleResolution": "Node", // 모듈 해석 방식 (Node.js)
-    "resolveJsonModule": true, // JSON 모듈 가져오기 허용
     "isolatedModules": true, // 파일을 독립적 모듈로 컴파일
     "jsx": "react-jsx" // JSX 코드 처리 방식 (React JSX)
   },
